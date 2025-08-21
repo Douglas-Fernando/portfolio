@@ -1,0 +1,14 @@
+site:
+  title: "Douglas"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/portifolio.js"
+      api: "build/libs/portifolio.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/portifolio.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
